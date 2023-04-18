@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
 
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <Label Content="Name" Background="Red" Margin="10" Padding="10"/>
+                <TextBox x:Name="tb_Name" Background="Red" Text="asd" Margin="10" Padding="10"/>
+            </StackPanel>
+
+            <TextBox x:Name="tb_Message" Background="Aqua" Grid.Row="1"/>
+
+            <Button Grid.Row="2" x:Name="bt_Send" Content="Send Message" Background="AliceBlue"/>
+        </Grid>
     </Grid>
 </Window>
