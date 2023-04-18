@@ -27,5 +27,10 @@
 
             <Button Grid.Row="2" x:Name="bt_Send" Content="Send Message" Background="AliceBlue"/>
         </Grid>
+
+        <ListBox Grid.Column="1" x:Name="lb_AllMessage" Background="LightBlue">
+            
+        </ListBox>
+        
     </Grid>
 </Window>
