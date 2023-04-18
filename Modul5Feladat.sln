@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul5Feladat", "Modul5Feladat\Modul5Feladat.csproj", "{34D8B3FE-DA5C-499F-B38A-DD66D6E967FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D8B3FE-DA5C-499F-B38A-DD66D6E967FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D8B3FE-DA5C-499F-B38A-DD66D6E967FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D8B3FE-DA5C-499F-B38A-DD66D6E967FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D8B3FE-DA5C-499F-B38A-DD66D6E967FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B85B1A6-CDF5-4546-A14C-9F65A81C5D6A}
+	EndGlobalSection
+EndGlobal
